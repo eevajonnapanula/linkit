@@ -1,3 +1,130 @@
-h1 {
-  color: green;
+:root {
+  --c-color: #1b1b3a;
+  --c-background: #fff;
+  --c-pink: #e54f6d;
+  --c-yellow: #f58f00;
+  --c-highlight: #e86a84;
+  --c-light-pink: #fad4da;
+  --c-blue: #2c5a63;
+  --border-width: 5px;
+}
+
+html {
+  background-color: var(--c-background);
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  color: var(--c-color);
+  font-family: system-ui;
+  font-size: 1.5rem;
+}
+
+main {
+  margin: 1rem;
+}
+
+footer {
+  position: relative;
+  bottom: 0;
+  margin: 1rem;
+}
+
+footer ul {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+
+footer ul li {
+  padding-bottom: 0.5rem;
+}
+
+a {
+  text-decoration: underline;
+  color: var(--c-blue);
+}
+
+footer a {
+  text-decoration: none;
+}
+
+footer a::after {
+  content: '';
+  display: block;
+  width: 100%;
+  margin-top: -0.7rem;
+  background-color: var(--c-light-pink);
+  height: 0.75rem;
+  border-bottom: 0.1em solid var(--c-blue);
+}
+
+footer a:hover::after,
+footer a:focus::after {
+  animation-duration: 1s;
+  animation-name: slidein;
+}
+
+.background-div {
+  z-index: -1;
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  min-height: 100%;
+  background-color: var(--c-light-pink);
+  clip-path: polygon(0 0, 100% 0, 100% 10%, 0% 80%);
+}
+
+.link-wrapper {
+  width: calc(100% - 3rem);
+  border: var(--border-width) solid var(--c-color);
+  padding: 1rem;
+  margin-bottom: 1rem;
+  background-color: var(--c-background);
+}
+
+.link-wrapper > p {
+  margin: 0;
+}
+
+.link-wrapper-top-bar {
+  width: calc(100% - 1rem);
+  border: var(--border-width) solid var(--c-color);
+  height: 2rem;
+  border-bottom: none;
+  background-color: var(--c-pink);
+  display: flex;
+  flex-direction: row;
+  justify-content: end;
+  align-items: center;
+  padding: 0.25rem 0;
+}
+
+.link-wrapper-icon {
+  height: calc(80%);
+  width: auto;
+  margin: 0.5rem;
+}
+
+.link-type {
+  font-weight: bold;
+}
+
+.link-wrapper-top-bar.blog {
+  background-color: var(--c-yellow);
+}
+
+@keyframes slidein {
+  from {
+    width: 00%;
+  }
+
+  to {
+    width: 100%;
+  }
 }

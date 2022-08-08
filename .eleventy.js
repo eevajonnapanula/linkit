@@ -1,3 +1,12 @@
 module.exports = function (eleventyConfig) {
-  eleventyConfig.addPassthroughCopy("assets")
+  eleventyConfig.addPassthroughCopy('assets')
+
+  eleventyConfig.addLiquidShortcode('type', function (type) {
+    switch (type) {
+      case 'blog':
+        return 'Blogipostaus'
+      default:
+        return 'Muu'
+    }
+  })
 }
