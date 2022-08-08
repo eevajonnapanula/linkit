@@ -4,7 +4,7 @@
   "description": "Linkit",
   "main": "index.js",
   "scripts": {
-    "build": "npx eleventy",
+    "build": "npx eleventy --pathprefix=linkit",
     "build-dev": "npx eleventy",
     "watch": "npx eleventy --watch",
     "serve": "npx eleventy --serve",
