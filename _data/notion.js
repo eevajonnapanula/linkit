@@ -2,7 +2,7 @@
 
 // Initializing a client
 const notion = new Client({
-  auth: 'secret_rG4eRf2fHsY4lT2d01TDGjmIj4wNgcpMyYT2RptcemR'
+  auth: ''
 })
 
 module.exports = async () => {
