@@ -1,18 +1,21 @@
 {
-  "name": "saavutettavuudesta",
+  "name": "Linkit",
   "version": "1.0.0",
-  "description": "Podcast saavutettavuudesta",
+  "description": "Linkit",
   "main": "index.js",
   "scripts": {
+    "build": "npx eleventy",
+    "build-dev": "npx eleventy",
+    "watch": "npx eleventy --watch",
+    "serve": "npx eleventy --serve",
+    "debug": "DEBUG=* npx eleventy",
     "test": "echo \"Error: no test specified\" && exit 1",
     "eslint": "eslint",
     "stylelint": "stylelint **/**.css",
-    "lint": "npm run eslint && npm run stylelint",
-    "notion": "node ./_data/notion.js"
+    "lint": "npm run eslint && npm run stylelint"
   },
   "keywords": [
-    "accessibility",
-    "podcast"
+    "eleventy"
   ],
   "author": "eevajonnapanula",
   "license": "ISC",
