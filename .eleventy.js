@@ -5,6 +5,8 @@ module.exports = function (eleventyConfig) {
     switch (type) {
       case 'blog':
         return 'Blogipostaus'
+      case 'video':
+        return 'Video'
       default:
         return 'Muu'
     }
