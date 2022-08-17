@@ -119,6 +119,10 @@ footer a:focus::after {
   background-color: var(--c-yellow);
 }
 
+.link-wrapper-top-bar.video {
+  background-color: var(--c-blue);
+}
+
 @keyframes slidein {
   from {
     width: 00%;
