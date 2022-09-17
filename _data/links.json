@@ -1,5 +1,10 @@
 [
   {
+    "name": "My talk in React Finland, stream",
+    "url": "https://youtu.be/rHjwZu0EmlQ?t=26146",
+    "type": "video"
+  },
+  {
     "name": "The Dark Side of Blogging",
     "url": "https://dev.to/eevajonnapanula/the-dark-side-of-blogging-1kaj",
     "type": "blog"
