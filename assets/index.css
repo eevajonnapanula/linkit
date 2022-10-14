@@ -123,6 +123,10 @@ footer a:focus::after {
   background-color: var(--c-blue);
 }
 
+.link-wrapper-top-bar.event {
+  background-color: var(--c-pink);
+}
+
 @keyframes slidein {
   from {
     width: 00%;
