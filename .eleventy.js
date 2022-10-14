@@ -7,6 +7,8 @@ module.exports = function (eleventyConfig) {
         return 'Blogipostaus'
       case 'video':
         return 'Video'
+      case 'event':
+        return 'Tapahtuma'
       default:
         return 'Muu'
     }

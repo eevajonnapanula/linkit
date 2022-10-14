@@ -1,5 +1,10 @@
 [
   {
+    "name": "We Are Developers Live - React Day",
+    "url": "https://www.wearedevelopers.com/event/react-day",
+    "type": "event"
+  },
+  {
     "name": "My talk in React Finland, stream",
     "url": "https://youtu.be/rHjwZu0EmlQ?t=26146",
     "type": "video"
