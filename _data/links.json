@@ -1,5 +1,15 @@
 [
   {
+    "name": "Saavutettavuuden sertifikaatit (blogipostaussarja)",
+    "url": "https://dev.to/eevajonnapanula/series/9655",
+    "type": "blog"
+  },
+  {
+    "name": "IAAPin sertifikaatit",
+    "url": "https://www.accessibilityassociation.org/s/certification",
+    "type": "link"
+  },
+  {
     "name": "We Are Developers Live - React Day",
     "url": "https://www.wearedevelopers.com/event/react-day",
     "type": "event"
