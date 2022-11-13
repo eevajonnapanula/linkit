@@ -9,6 +9,8 @@ module.exports = function (eleventyConfig) {
         return 'Video'
       case 'event':
         return 'Tapahtuma'
+      case 'shop':
+        return 'Kauppa'
       default:
         return 'Muu'
     }
