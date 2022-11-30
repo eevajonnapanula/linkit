@@ -11,6 +11,8 @@ module.exports = function (eleventyConfig) {
         return 'Tapahtuma'
       case 'shop':
         return 'Kauppa'
+      case 'adventcalendar':
+        return 'Joulukalenteri'
       default:
         return 'Muu'
     }

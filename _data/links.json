@@ -1,11 +1,16 @@
 [
   {
+    "name": "Saavutettavuusjoulukalenteri",
+    "url": "https://eevis.codes/saavutettavuusjoulukalenteri",
+    "type": "adventcalendar"
+  },
+  {
     "name": "Läppäritarrat täältä!",
     "url": "https://e50501.myshopify.com/",
     "type": "shop"
   },
   {
-    "name": "Hey Tech Recruiter, Here Are Some Tips from a Developer",
+    "name": "My talk in React Finland, stream",
     "url": "https://eevis.codes/blog/2022-11-06/hey-tech-recruiter-here-are-some-tips-from-a-developer/",
     "type": "blog"
   },
