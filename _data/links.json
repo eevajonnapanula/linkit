@@ -1,13 +1,13 @@
 [
   {
-    "name": "Saavu&#xAD;tettavuus&#xAD;joulukalenteri",
-    "url": "https://saavutettavuusjoulukalenteri.eevis.codes/",
-    "type": "adventcalendar"
-  },
-  {
     "name": "Läppäritarrat täältä!",
     "url": "https://e50501.myshopify.com/",
     "type": "shop"
+  },
+  {
+    "name": "Android, Animations and Reduced Motion",
+    "url": "https://eevis.codes/blog/2022-12-12/android-animations-and-reduced-motion/",
+    "type": "blog"
   },
   {
     "name": "Hey Tech Recruiter, Here Are Some Tips from a Developer",
