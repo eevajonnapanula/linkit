@@ -5,6 +5,11 @@
     "type": "shop"
   },
   {
+    "name": "Sometimes I feel like I'm invisible - Experiences of a Woman in Tech",
+    "url": "https://eevis.codes/blog/2023-02-05/sometimes-i-feel-like-im-invisible-experiences-of-a-woman-in-tech/",
+    "type": "blog"
+  },
+  {
     "name": "Automating Advent Calendar with Github Actions and Eleventy",
     "url": "https://eevis.codes/blog/2023-01-14/automating-advent-calendar-with-github-actions-and-eleventy/",
     "type": "blog"
