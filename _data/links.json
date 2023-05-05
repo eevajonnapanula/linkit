@@ -5,6 +5,11 @@
     "type": "shop"
   },
   {
+    "name": "Women Who Code Dev Summit: Mobile & Web",
+    "url": "https://mobileweb.womenwhocode.dev/",
+    "type": "link"
+  },
+  {
     "name": "The Language We Use Matters - #WeCoded",
     "url": "https://dev.to/eevajonnapanula/the-language-we-use-matters-9mn",
     "type": "blog"
