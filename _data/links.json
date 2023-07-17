@@ -1,5 +1,10 @@
 [
   {
+    "name": "Android Developers and Accessibility - Challenges and Proposed Solutions",
+    "url": "https://eevis.codes/blog/2023-07-17/android-developers-and-accessibility-challenges-and-proposed-solutions/",
+    "type": "blog"
+  },
+  {
     "name": "Improving Android Accessibility with Modifiers in Jetpack Compose",
     "url": "https://eevis.codes/blog/2023-07-11/improving-android-accessibility-with-modifiers-in-jetpack-compose/",
     "type": "blog"
